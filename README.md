@@ -121,6 +121,7 @@ final table serialization are excluded.
 | `tests/` | Numerical, release and interface regression checks |
 | `docs/reproduction.md` | Recorded environments, execution scope and data prerequisites |
 | `docs/editorial_audit.md` | First-person narrative and claim/evidence review |
+| `docs/citation_audit.md` | Verified page locators and explicit unresolved/nonpaginated cases |
 
 ```bash
 python -m venv .venv
