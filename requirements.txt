@@ -1,0 +1,10 @@
+numpy>=2.0,<3
+scipy>=1.14,<2
+PyWavelets>=1.8,<2
+Pillow>=11,<13
+opencv-python-headless>=4.10,<6
+tqdm>=4.66,<5
+invisible-watermark>=0.2.0
+diffusers>=0.35,<0.41
+matplotlib>=3.9,<4
+torch>=2.5,<3

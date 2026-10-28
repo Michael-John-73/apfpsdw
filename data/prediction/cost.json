@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "predict": {
+      "median_s": 0.023736520495731384,
+      "p95_s": 0.04241125654079951,
+      "sum_s": 153.3188540742267
+    },
+    "replay": {
+      "median_s": 0.021391374990344048,
+      "p95_s": 0.03887639374006539,
+      "sum_s": 135.56168359611183
+    }
+  },
+  "includes": "image verification/read, full encode, features+PMF or channel+decode; both paths include source I/O; warm OS cache; unamortized per query",
+  "excludes": "common original-image generation, one-time fitting/calibration (recorded separately), network download and serialization of final tables",
+  "interpretation": "We measure single-query latency including backend policy and transfer overhead, and record large-batch numerical throughput separately in the original archive. We compare prediction with exact replay; kernel throughput alone does not establish end-to-end acceleration."
+}

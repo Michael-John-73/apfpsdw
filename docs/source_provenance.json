@@ -1,0 +1,26 @@
+{
+  "original_module_sha256": {
+    "__init__.py": "0c9663039c9079fbdefa91f45b2147c82f31d77fb3debbaf2449662b6c3060dc",
+    "acquire.py": "60ce439241253357f087d6ac18696ebadd6b0e516022395119e54f16939283f1",
+    "batch_backend.py": "884bb28f90c694b3fc36725e549fed62a9a1c60c0859dc2c422aa38feb932af5",
+    "checks.py": "8e980bbbe7a59d159758fda2483222d501175c0a4f659740bc04ebd1199865a7",
+    "codec.py": "4182f51855cd8d0ce1ce1643330be0832bf0b4a4c947544573c41f201a2c04a1",
+    "common.py": "659c477ed1d5d9a267533d5b2e0d34676fda1f71501f942a0d4fcbeed9c70678",
+    "config.py": "32f2de0dcdbd9b0f8835e6cea06e3f942555ffef8ec31682bf5ce736ad1dae98",
+    "data.py": "7ec2279af5cc163f538351e8e7500a001475504c376f0eda2d194e5e5273c012",
+    "gpu_checks.py": "afc9c89dcfaf95a303a80f24ae8ddcce1b29b0788198f3533ebccbd396da6ce6",
+    "models.py": "e971a85be6b91abec11dbaec8ce1f50d5c4975d746059a9067d2c94325672a8a",
+    "operations.py": "0a80a0e0b24ee5f6cd421ca8fe7b43a6d7617506f8c632be82a1e522be6a7c3a",
+    "probability.py": "b6d8d57d9f33c7f2aff4be10f9afeac3eb76e22191c85c872afb6e71fabe52a7",
+    "study.py": "ac2f6fe8da9472c183b3fb29047f603dbffbfe0aadd35a4262b86c0609a6713f",
+    "workflow.py": "fff05ed11719357dbe836e722a31b7f3c0f34e31be997014ed2abacbd001c632"
+  },
+  "original_launcher_sha256": "0ea97f72a14fb58b34059dcb60abfcd1697bdc71cce29d486f9e8c5e4505c1a5",
+  "scope": "Original execution hashes identify archived bytes, not modified public exports.",
+  "export_changes": [
+    "We replaced machine-specific configuration paths with relative paths.",
+    "We anonymized native group identifiers and omitted images, prompts and source hashes.",
+    "We revised explanatory output strings without changing numerical computations.",
+    "We made native module imports relative to this repository."
+  ]
+}

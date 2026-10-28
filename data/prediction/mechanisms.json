@@ -1,0 +1,864 @@
+{
+  "split": "test",
+  "results": [
+    {
+      "payload": "xl",
+      "condition": "none",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0008283631544068928,
+        "low": -0.002567925778661366,
+        "high": 0.0008697813121272367,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "none",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "none",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": -0.013916500994035786,
+        "high": 0.013916500994035786,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_s0",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0016153081510934403,
+        "low": -0.001283962889330681,
+        "high": 0.00459741550695825,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_s0",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_s0",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.005964214711729622,
+        "low": -0.017892644135188866,
+        "high": 0.02982107355864811,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_s2",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0008283631544068918,
+        "low": -0.004555997349237904,
+        "high": 0.0029406891981444655,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_s2",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_s2",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0019880715705765406,
+        "low": -0.007952286282306162,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg75_s0",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.018389662027833,
+        "low": -0.025057985420808476,
+        "high": -0.012011265738899933,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg75_s0",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg75_s0",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.08151093439363817,
+        "low": 0.0437375745526839,
+        "high": 0.12127236580516898,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg75_s2",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.00182239893969516,
+        "low": -0.004928760768721005,
+        "high": 0.001470862326043732,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg75_s2",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg75_s2",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "chroma420",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.004928760768721008,
+        "low": -0.007413850231941684,
+        "high": -0.002588117130550041,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "chroma420",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "chroma420",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.009940357852882704,
+        "low": -0.0019880715705765406,
+        "high": 0.02385685884691849,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "resize09",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.00459741550695825,
+        "low": -0.009029158383035123,
+        "high": -0.00024850894632206616,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "resize09",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "resize09",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "crop08",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -1.986482549031095e-18,
+        "low": -0.004597415506958251,
+        "high": 0.004431742876076871,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "crop08",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "crop08",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_resize09",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0005384360503644803,
+        "low": -0.0032720344599072213,
+        "high": 0.0043701333664678535,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_resize09",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_resize09",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "resize09_jpeg95",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.00024850894632207066,
+        "low": -0.004431742876076873,
+        "high": 0.003810470510271702,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "resize09_jpeg95",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "resize09_jpeg95",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_resize09_crop08",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.002328675981370594,
+        "low": -0.0058216899534264815,
+        "high": 0.0012059214903526292,
+        "n_groups": 501,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_resize09_crop08",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.017514466527073533,
+        "low": -0.026812488433125715,
+        "high": -0.008245744873309318,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "xl",
+      "condition": "jpeg95_resize09_crop08",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "none",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0019003625306981639,
+        "low": -0.003040580049117062,
+        "high": -0.0008403622383347007,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "none",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "none",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.003976143141153081,
+        "low": -0.007952286282306162,
+        "high": 0.015904572564612324,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_s0",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.002441234943281487,
+        "low": 0.00010232721319143889,
+        "high": 0.004780142673371536,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_s0",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_s0",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.003976143141153081,
+        "low": -0.02584493041749503,
+        "high": 0.017892644135188866,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_s2",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.000482399719331074,
+        "low": -0.002777452929481933,
+        "high": 0.0017541807975675343,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_s2",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_s2",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg75_s0",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.019486025026312713,
+        "low": -0.024441585779441007,
+        "high": -0.014647409659688929,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg75_s0",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg75_s0",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": -0.017892644135188866,
+        "high": 0.017892644135188866,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg75_s2",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.002382762250029235,
+        "low": -0.004429306513858025,
+        "high": -0.00040930885276575785,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg75_s2",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg75_s2",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "chroma420",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.002148871477020233,
+        "low": -0.003742252368144078,
+        "high": -0.0005626169453865093,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "chroma420",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "chroma420",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": -0.005964214711729622,
+        "high": 0.005964214711729622,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "resize09",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0010671266518535857,
+        "low": -0.003961524967840019,
+        "high": 0.001900362530698164,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "resize09",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "resize09",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "crop08",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0004970178926441339,
+        "low": -0.0031429072623085008,
+        "high": 0.0021488714770202333,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "crop08",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "crop08",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_resize09",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.0007016723190270158,
+        "low": -0.002996725529177876,
+        "high": 0.0016447272248859735,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_resize09",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_resize09",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "resize09_jpeg95",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": 4.385451993919001e-05,
+        "low": -0.0032890889954391277,
+        "high": 0.0035889442755233296,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "resize09_jpeg95",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "resize09_jpeg95",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_resize09_crop08",
+      "metric": "ber",
+      "dtype_by_swap_interaction": {
+        "estimate": -1.46765292943512e-05,
+        "low": -0.0022161559234472215,
+        "high": 0.0022748620406246325,
+        "n_groups": 501,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_resize09_crop08",
+      "metric": "mse_rgb",
+      "dtype_by_swap_interaction": {
+        "estimate": -0.011232821242043379,
+        "low": -0.020011708115085403,
+        "high": -0.002236755208029222,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    },
+    {
+      "payload": "v1",
+      "condition": "jpeg95_resize09_crop08",
+      "metric": "exact",
+      "dtype_by_swap_interaction": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      }
+    }
+  ],
+  "interpretation": "Controlled component interventions; descriptive multiple contrasts, no forced causal direction or adjusted confirmatory mechanism claim. BER excludes guard refusals; exact retains them."
+}

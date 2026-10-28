@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "raw bit/count/event pilot",
+    "raw bit/count/event fit",
+    "raw bit/count/event validation",
+    "raw bit/count/event calibration",
+    "raw bit/count/event test",
+    "all validation candidates versus independent SciPy PMFs",
+    "normalization learned from fit-only features",
+    "calibration changes temperature only",
+    "every frozen forecast PMF/realized NLL recomputed from saved coefficients and raw prechannel features",
+    "frozen forecasts plus raw labels -> panel NLL/paired CI/MAE CI/verdicts/operating denominators and intervals",
+    "full cost median/p95/sum from independent raw durations"
+  ],
+  "rows": 409504,
+  "forecast_max_abs_pmf_error": 8.076872504148014e-14,
+  "forecast_max_realized_nll_error": 5.009326287108706e-13,
+  "independent_engine": "SciPy binom/betabinom and separate convolution; no pipeline probability/model/evaluate imports",
+  "confirmation_present": true,
+  "limitations": "Source/library equivalence and mathematical gradients use the separate recorded checks; scientific independence depends on original source metadata."
+}

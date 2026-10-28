@@ -1,0 +1,74 @@
+{
+  "status": "PURPOSE_AND_SAFETY_IMPACT_AUDIT_COMPLETE",
+  "analysis_role": "Post-hoc diagnosis and sensitivity, not replacement of locked primary verdict",
+  "safety_count": 44,
+  "safety_fraction": 0.044,
+  "duplicate_pairs": 946,
+  "all_pairs_explained_by_safety": true,
+  "rates_and_BER": [
+    {
+      "condition": "C0",
+      "N_attempts": 1000,
+      "N_not_replaced": 956,
+      "unconditional_tau": 0.562,
+      "decoder_only_tau": 0.562,
+      "conditional_nonreplaced_tau": 0.5878661087866108,
+      "flagged_decoder_tau_count": 0,
+      "flagged_decoder_exact_count": 0,
+      "flagged_K": [
+        68
+      ],
+      "flagged_BER": 0.5,
+      "mean_BER_unconditional": 0.16437499999999985,
+      "mean_BER_nonreplaced": 0.1489278242677823
+    },
+    {
+      "condition": "C444",
+      "N_attempts": 1000,
+      "N_not_replaced": 956,
+      "unconditional_tau": 0.63,
+      "decoder_only_tau": 0.63,
+      "conditional_nonreplaced_tau": 0.6589958158995816,
+      "flagged_decoder_tau_count": 0,
+      "flagged_decoder_exact_count": 0,
+      "flagged_K": [
+        68
+      ],
+      "flagged_BER": 0.5,
+      "mean_BER_unconditional": 0.1424485294117646,
+      "mean_BER_nonreplaced": 0.12599218557715963
+    },
+    {
+      "condition": "C420",
+      "N_attempts": 1000,
+      "N_not_replaced": 956,
+      "unconditional_tau": 0.005,
+      "decoder_only_tau": 0.005,
+      "conditional_nonreplaced_tau": 0.005230125523012552,
+      "flagged_decoder_tau_count": 0,
+      "flagged_decoder_exact_count": 0,
+      "flagged_K": [
+        68
+      ],
+      "flagged_BER": 0.5,
+      "mean_BER_unconditional": 0.3871691176470586,
+      "mean_BER_nonreplaced": 0.3819760644843709
+    }
+  ],
+  "primary_all_attempts": {
+    "N": 1000,
+    "positive": 626,
+    "negative": 1,
+    "difference": 0.625,
+    "lower_975": 0.5844196044906437,
+    "upper_975": 0.660259478844732
+  },
+  "posthoc_nonreplaced_conditional": {
+    "N": 956,
+    "positive": 626,
+    "negative": 1,
+    "difference": 0.6537656903765691,
+    "lower_975": 0.6126138010481855,
+    "upper_975": 0.689125823910699
+  }
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570">
+<title>Public fixed-payload watermark audit</title>
+<desc>Image sources, raw LL insertion, channel transforms, decoding and measured acceptance. A separate branch forecasts error counts before labels.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#006699"/></marker></defs>
+<rect width="1200" height="570" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#172b3a" font-size="16">
+<g fill="#f3f8fc" stroke="#006699" stroke-width="1.5">
+<rect x="15" y="40" width="205" height="330" rx="8"/>
+<rect x="255" y="40" width="205" height="330" rx="8"/>
+<rect x="495" y="40" width="205" height="330" rx="8"/>
+<rect x="735" y="40" width="205" height="330" rx="8"/>
+<rect x="975" y="40" width="210" height="330" rx="8"/>
+</g>
+<g text-anchor="middle" font-weight="bold" font-size="18">
+<text x="117" y="73">1. Image sources</text>
+<text x="357" y="73">2. Public insertion</text>
+<text x="597" y="73">3. Distribution</text>
+<text x="837" y="73">4. Decode</text>
+<text x="1080" y="73">5. Acceptance</text>
+</g>
+<g stroke="#006699" stroke-width="2" marker-end="url(#arrow)">
+<path d="M222 205H252"/><path d="M462 205H492"/><path d="M702 205H732"/><path d="M942 205H972"/>
+</g>
+<rect x="60" y="100" width="115" height="85" fill="#dbeaf3" stroke="#006699"/>
+<circle cx="145" cy="122" r="10" fill="#efb34b"/>
+<path d="M60 185L90 135L117 166L138 145L175 185Z" fill="#6c9e8a"/>
+<g text-anchor="middle">
+<text x="117" y="215">Photographs</text><text x="117" y="242">Diffusion outputs</text>
+<text x="117" y="294">Public payload</text><text x="117" y="321">48 / 136 bits</text>
+<text x="357" y="112">BGR → YUV U</text><text x="357" y="140">Haar DWT; LL blocks</text>
+<text x="357" y="180">Raw argmax selection</text><text x="357" y="207" font-weight="bold">No DCT</text>
+<text x="357" y="245">Quarter-point QIM</text><text x="357" y="272">Δ = 36</text>
+<text x="357" y="311">Swapped details</text><text x="357" y="338">on reconstruction</text>
+<text x="597" y="122">Same source</text><text x="597" y="149">paired channels</text>
+<text x="597" y="211">C0: unchanged</text><text x="597" y="252">JPEG95 4:4:4</text>
+<text x="597" y="293">JPEG95 4:2:0</text>
+<text x="837" y="117">Reselect LL argmax</text><text x="837" y="148">Block bits → votes</text>
+<text x="837" y="203">K = bit-error count</text><text x="837" y="249">Exact: K = 0</text>
+<text x="837" y="289">Tolerant: K ≤ ⌊L/8⌋</text>
+<text x="1080" y="105" font-size="14">XL photograph insertion</text>
+</g>
+<path d="M1009 135V286H1165" stroke="#34495e" fill="none"/>
+<g fill="#006699"><rect x="1023" y="169" width="30" height="117"/><rect x="1071" y="164" width="30" height="122"/></g>
+<rect x="1119" y="280" width="30" height="6" fill="#d88728"/>
+<g font-size="13" text-anchor="middle">
+<text x="1038" y="160">.783</text><text x="1086" y="155">.814</text><text x="1134" y="271">.041</text>
+<text x="1038" y="309">C0</text><text x="1086" y="309">444</text><text x="1134" y="309">420</text>
+<text x="1080" y="342">Measured tolerant rates</text>
+</g>
+<path d="M357 373V410" stroke="#006699" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<rect x="55" y="415" width="1090" height="110" rx="8" fill="#eef5f2" stroke="#39705a"/>
+<g text-anchor="middle">
+<text x="600" y="446" font-size="18" font-weight="bold">Separate frozen prediction study</text>
+<text x="600" y="476">Prechannel features → calibrated count PMF q(K) → predicted acceptance probability</text>
+<text x="600" y="503">We commit forecasts before channel/decode labels; we evaluate NLL, coverage and acceptance error.</text>
+<text x="600" y="552" font-weight="bold">Payload detection ≠ origin authentication. We retain separate cohorts and the original S-T audit hold.</text>
+</g></g></svg>
