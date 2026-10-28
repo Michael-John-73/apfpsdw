@@ -12,6 +12,8 @@ PyTorch 2.5.1+cu124, OpenCV 5.0.0, Pillow 12.3.0 and
 invisible-watermark 0.2.0 in the prediction study. We recorded
 PyWavelets runtime 1.8.0 with metadata 1.9.0. We do not assume that a newer
 dependency installation reproduces the original environment byte-for-byte.
+We distinguish the two version sources and the missing historical module-path
+and binary-hash evidence in [native evidence and chronology](native_evidence.md).
 
 ## Numerical verification
 
@@ -60,6 +62,8 @@ original v1 used 512-square, PLMS50, guidance 7.5 and CUDA autocast.
 We used seed 20261026 plus prompt index on an RTX 4090 (24 GB).
 We retained the original v1 safety-check/replacement-before-watermark order.
 The cohorts include all 44 safety replacements.
+We link the manuscript tables, RF/native lock hashes and prior CPU exposure
+in [native evidence and chronology](native_evidence.md).
 
 The `native/` scripts preserve original model-cache, manifest and frozen-run
 requirements. Generation and final auditing accept external archive paths.
