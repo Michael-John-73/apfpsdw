@@ -1,0 +1,237 @@
+{
+  "study_id": "new_component_study",
+  "paths": {
+    "legacy_root": "inputs/legacy",
+    "raw_root": "inputs/raw",
+    "work_root": ".",
+    "run_root": "runs"
+  },
+  "data": {
+    "fresh_sources": [],
+    "pilot_per_domain": 32,
+    "validation_fraction": 0.2,
+    "min_side": 256,
+    "phash_distance": 4,
+    "development_limit_per_domain": null
+  },
+  "measurement": {
+    "delta": 36.0,
+    "payloads": [
+      "xl",
+      "v1"
+    ],
+    "variants": [
+      {
+        "id": "uint8_swap",
+        "kind": "uint8",
+        "swap": true
+      },
+      {
+        "id": "uint8_correct",
+        "kind": "uint8",
+        "swap": false
+      },
+      {
+        "id": "float32_swap",
+        "kind": "float32",
+        "swap": true
+      },
+      {
+        "id": "float32_correct",
+        "kind": "float32",
+        "swap": false
+      }
+    ],
+    "conditions": [
+      {
+        "id": "none",
+        "panel": "primary",
+        "stages": []
+      },
+      {
+        "id": "jpeg95_s0",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "jpeg",
+            "quality": 95,
+            "subsampling": 0
+          }
+        ]
+      },
+      {
+        "id": "jpeg95_s2",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "jpeg",
+            "quality": 95,
+            "subsampling": 2
+          }
+        ]
+      },
+      {
+        "id": "jpeg75_s0",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "jpeg",
+            "quality": 75,
+            "subsampling": 0
+          }
+        ]
+      },
+      {
+        "id": "jpeg75_s2",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "jpeg",
+            "quality": 75,
+            "subsampling": 2
+          }
+        ]
+      },
+      {
+        "id": "chroma420",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "chroma",
+            "fx": 2,
+            "fy": 2
+          }
+        ]
+      },
+      {
+        "id": "resize09",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "resize",
+            "scale": 0.9
+          }
+        ]
+      },
+      {
+        "id": "crop08",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "crop",
+            "area": 0.8
+          }
+        ]
+      },
+      {
+        "id": "jpeg95_resize09",
+        "panel": "primary",
+        "stages": [
+          {
+            "op": "jpeg",
+            "quality": 95,
+            "subsampling": 2
+          },
+          {
+            "op": "resize",
+            "scale": 0.9
+          }
+        ]
+      },
+      {
+        "id": "resize09_jpeg95",
+        "panel": "transfer_order",
+        "stages": [
+          {
+            "op": "resize",
+            "scale": 0.9
+          },
+          {
+            "op": "jpeg",
+            "quality": 95,
+            "subsampling": 2
+          }
+        ]
+      },
+      {
+        "id": "jpeg95_resize09_crop08",
+        "panel": "transfer_length",
+        "stages": [
+          {
+            "op": "jpeg",
+            "quality": 95,
+            "subsampling": 2
+          },
+          {
+            "op": "resize",
+            "scale": 0.9
+          },
+          {
+            "op": "crop",
+            "area": 0.8
+          }
+        ]
+      }
+    ],
+    "roles": [
+      "public_mark",
+      "unmarked"
+    ]
+  },
+  "training": {
+    "l2_candidates": [
+      0.01,
+      0.1
+    ],
+    "maxiter": 1500,
+    "ftol": 1e-09,
+    "gtol": 1e-05,
+    "seed": 20261021
+  },
+  "calibration": {
+    "temperature_bounds": [
+      0.5,
+      2.0
+    ],
+    "maxiter": 100
+  },
+  "statistics": {
+    "confidence": 0.975,
+    "bootstrap_reps": 5000,
+    "seed": 20261021
+  },
+  "design": {
+    "delta_nll": 0.04879016416943204,
+    "delta_justification": "Design convention: 5% geometric improvement of assigned probability to the realized error count (exp(delta)=1.05), selected before independent labels; sensitivity .02 and .10 is exploratory, not alternative pass thresholds.",
+    "acceptance_mae": 0.05,
+    "mae_justification": "Operational design tolerance: at most five percentage points mean absolute probability error across all fixed implementation/payload/channel acceptance cells and both acceptance rules. This is a declared target, not a universal publication standard.",
+    "power": 0.8,
+    "proportion_half_width": 0.05,
+    "max_test_groups": 2000,
+    "calibration_groups": 400,
+    "test_groups": 503,
+    "source_scope": "watermarker component on fresh COCO and DiffusionDB source groups; no new-generator or full-issuance claim",
+    "require_source_proof": true
+  },
+  "environment": {
+    "profile": "local",
+    "require_cuda": false,
+    "expected_gpu": "4090",
+    "cpu_threads": 8
+  },
+  "compute": {
+    "device": "auto",
+    "dtype": "float64",
+    "train_batch_rows": 32768,
+    "predict_batch_rows": 4096,
+    "min_batch_rows": 128,
+    "gpu_min_rows": 2048,
+    "vram_fraction": 0.75,
+    "max_vram_gib": 18.0,
+    "reserve_gib": 4.0,
+    "pin_memory": true,
+    "auto_batch": true,
+    "oom_retries": 8,
+    "forecast_source_batch": 32
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "status": "FULL_COHORT_INDEPENDENT_AUDIT_COMPLETE",
+  "rows": 18000,
+  "independent_units": {
+    "natural_photo_groups": 1000,
+    "shared_prompt_groups": 1000,
+    "not_4000_independent_groups": true
+  },
+  "verdicts": {
+    "S-F": "SUPPORTED",
+    "S-T": "INCONCLUSIVE_DEPENDENCE_AUDIT"
+  },
+  "contrasts": [
+    {
+      "hypothesis": "S-F",
+      "population": "RF_vs_R0",
+      "payload": "xl",
+      "n": 1000,
+      "difference": 0.783,
+      "lower_975": 0.7478817373089898,
+      "upper_975": 0.811617371566935,
+      "margin": 0.05,
+      "positive_discordant": 783,
+      "negative_discordant": 0,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "hypothesis": "S-T",
+      "population": "RF",
+      "payload": "xl",
+      "n": 1000,
+      "difference": 0.773,
+      "lower_975": 0.7347523441345213,
+      "upper_975": 0.8050455739497602,
+      "margin": 0.1,
+      "positive_discordant": 777,
+      "negative_discordant": 4,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "hypothesis": "S-T",
+      "population": "G",
+      "payload": "xl",
+      "n": 1000,
+      "difference": 0.312,
+      "lower_975": 0.27022256136655937,
+      "upper_975": 0.35115784755838586,
+      "margin": 0.1,
+      "positive_discordant": 320,
+      "negative_discordant": 8,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "hypothesis": "S-F",
+      "population": "RF_vs_R0",
+      "payload": "v1",
+      "n": 1000,
+      "difference": 0.726,
+      "lower_975": 0.6887093388422999,
+      "upper_975": 0.7572213075791548,
+      "margin": 0.05,
+      "positive_discordant": 726,
+      "negative_discordant": 0,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "hypothesis": "S-T",
+      "population": "RF",
+      "payload": "v1",
+      "n": 1000,
+      "difference": 0.752,
+      "lower_975": 0.7156112406249704,
+      "upper_975": 0.7821229191802719,
+      "margin": 0.1,
+      "positive_discordant": 752,
+      "negative_discordant": 0,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "hypothesis": "S-T",
+      "population": "G",
+      "payload": "v1",
+      "n": 1000,
+      "difference": 0.625,
+      "lower_975": 0.5844196044906437,
+      "upper_975": 0.660259478844732,
+      "margin": 0.1,
+      "positive_discordant": 626,
+      "negative_discordant": 1,
+      "verdict": "SUPPORTED"
+    }
+  ],
+  "rates": [
+    {
+      "payload": "xl",
+      "role": "G",
+      "condition": "C0",
+      "n": 1000,
+      "exact": 0.312,
+      "tau_accept": 0.375,
+      "BER": 0.2746458333333333,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "G",
+      "condition": "C444",
+      "n": 1000,
+      "exact": 0.301,
+      "tau_accept": 0.381,
+      "BER": 0.2858125000000002,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "G",
+      "condition": "C420",
+      "n": 1000,
+      "exact": 0.018,
+      "tau_accept": 0.069,
+      "BER": 0.4208125000000001,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "R0",
+      "condition": "C0",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.5292499999999999,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "R0",
+      "condition": "C444",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.5290625000000001,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "R0",
+      "condition": "C420",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.528916666666666,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "RF",
+      "condition": "C0",
+      "n": 1000,
+      "exact": 0.632,
+      "tau_accept": 0.783,
+      "BER": 0.08079166666666662,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "RF",
+      "condition": "C444",
+      "n": 1000,
+      "exact": 0.668,
+      "tau_accept": 0.814,
+      "BER": 0.0715833333333333,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "xl",
+      "role": "RF",
+      "condition": "C420",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.041,
+      "BER": 0.44054166666666666,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "v1",
+      "role": "G",
+      "condition": "C0",
+      "n": 1000,
+      "exact": 0.224,
+      "tau_accept": 0.562,
+      "BER": 0.16437499999999985,
+      "safety_replaced": 44
+    },
+    {
+      "payload": "v1",
+      "role": "G",
+      "condition": "C444",
+      "n": 1000,
+      "exact": 0.254,
+      "tau_accept": 0.63,
+      "BER": 0.1424485294117646,
+      "safety_replaced": 44
+    },
+    {
+      "payload": "v1",
+      "role": "G",
+      "condition": "C420",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.005,
+      "BER": 0.3871691176470586,
+      "safety_replaced": 44
+    },
+    {
+      "payload": "v1",
+      "role": "R0",
+      "condition": "C0",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.49947058823529417,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "v1",
+      "role": "R0",
+      "condition": "C444",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.49959558823529426,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "v1",
+      "role": "R0",
+      "condition": "C420",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.5001764705882352,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "v1",
+      "role": "RF",
+      "condition": "C0",
+      "n": 1000,
+      "exact": 0.4,
+      "tau_accept": 0.726,
+      "BER": 0.10282352941176456,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "v1",
+      "role": "RF",
+      "condition": "C444",
+      "n": 1000,
+      "exact": 0.438,
+      "tau_accept": 0.752,
+      "BER": 0.09269117647058812,
+      "safety_replaced": 0
+    },
+    {
+      "payload": "v1",
+      "role": "RF",
+      "condition": "C420",
+      "n": 1000,
+      "exact": 0.0,
+      "tau_accept": 0.0,
+      "BER": 0.4280294117647071,
+      "safety_replaced": 0
+    }
+  ]
+}

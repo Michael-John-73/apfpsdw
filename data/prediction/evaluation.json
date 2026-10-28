@@ -1,0 +1,1081 @@
+{
+  "panels": {
+    "primary": {
+      "paired_nll_gain": {
+        "estimate": 0.049873164273087946,
+        "low": 0.035738711453498634,
+        "high": 0.06259283790503034,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "acceptance_probability_mae": {
+        "estimate": 0.04329346755653152,
+        "low": 0.03921538375703496,
+        "high": 0.04859727280280397,
+        "fixed_cells": 144
+      },
+      "verdict": "INCONCLUSIVE",
+      "decoder_supported_rate": 1.0,
+      "operating_groups": 503,
+      "rows": 36216,
+      "delta_nll": 0.04879016416943204,
+      "model_metrics": {
+        "baseline": {
+          "nll": 3.6356110119634595,
+          "brier_exact": 0.061440582968002325,
+          "brier_tau": 0.1089493929461155,
+          "covered": 0.9841782637508283
+        },
+        "proposed": {
+          "nll": 3.585737847690371,
+          "brier_exact": 0.04887112048137167,
+          "brier_tau": 0.08946095294814849,
+          "covered": 0.9822178042853987
+        }
+      },
+      "fixed_bin_reliability_descriptive": [
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 0,
+          "rows": 25851,
+          "mean_prediction": 0.0097301037185451,
+          "event_rate": 0.01319097907237631
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 1,
+          "rows": 3131,
+          "mean_prediction": 0.14659041845784593,
+          "event_rate": 0.13286489939316512
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 2,
+          "rows": 2203,
+          "mean_prediction": 0.24969652659067418,
+          "event_rate": 0.21697684975034046
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 3,
+          "rows": 1749,
+          "mean_prediction": 0.34971999955766303,
+          "event_rate": 0.313893653516295
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 4,
+          "rows": 1391,
+          "mean_prediction": 0.44915031761002355,
+          "event_rate": 0.4306254493170381
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 5,
+          "rows": 993,
+          "mean_prediction": 0.5477731854794906,
+          "event_rate": 0.4954682779456193
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 6,
+          "rows": 608,
+          "mean_prediction": 0.6432728556235249,
+          "event_rate": 0.5855263157894737
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 7,
+          "rows": 260,
+          "mean_prediction": 0.7373293026585125,
+          "event_rate": 0.6961538461538461
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 8,
+          "rows": 30,
+          "mean_prediction": 0.8122307853678609,
+          "event_rate": 0.8
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 0,
+          "rows": 20124,
+          "mean_prediction": 0.010517484994962583,
+          "event_rate": 0.007155635062611807
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 1,
+          "rows": 140,
+          "mean_prediction": 0.16956610907254618,
+          "event_rate": 0.0
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 2,
+          "rows": 758,
+          "mean_prediction": 0.2606400684180086,
+          "event_rate": 0.030343007915567283
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 3,
+          "rows": 1982,
+          "mean_prediction": 0.35852472950084735,
+          "event_rate": 0.24268415741675076
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 4,
+          "rows": 3240,
+          "mean_prediction": 0.44981690973417465,
+          "event_rate": 0.3734567901234568
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 5,
+          "rows": 2384,
+          "mean_prediction": 0.5470846284246973,
+          "event_rate": 0.3338926174496644
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 6,
+          "rows": 2454,
+          "mean_prediction": 0.654613318538472,
+          "event_rate": 0.4058679706601467
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 7,
+          "rows": 3632,
+          "mean_prediction": 0.7486094742758066,
+          "event_rate": 0.6241740088105727
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 8,
+          "rows": 1502,
+          "mean_prediction": 0.8333663020486904,
+          "event_rate": 0.7350199733688415
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 0,
+          "rows": 27380,
+          "mean_prediction": 0.00828820921069775,
+          "event_rate": 0.010080350620891161
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 1,
+          "rows": 2219,
+          "mean_prediction": 0.1460638577487971,
+          "event_rate": 0.14195583596214512
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 2,
+          "rows": 1619,
+          "mean_prediction": 0.2462067064790512,
+          "event_rate": 0.16615194564546015
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 3,
+          "rows": 1151,
+          "mean_prediction": 0.3496590329763664,
+          "event_rate": 0.2728062554300608
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 4,
+          "rows": 991,
+          "mean_prediction": 0.44791522537156375,
+          "event_rate": 0.34006054490413723
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 5,
+          "rows": 897,
+          "mean_prediction": 0.5506460509483716,
+          "event_rate": 0.4760312151616499
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 6,
+          "rows": 760,
+          "mean_prediction": 0.646639998909951,
+          "event_rate": 0.5828947368421052
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 7,
+          "rows": 576,
+          "mean_prediction": 0.7459212406095476,
+          "event_rate": 0.7795138888888888
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 8,
+          "rows": 579,
+          "mean_prediction": 0.8487868677501816,
+          "event_rate": 0.9775474956822107
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 9,
+          "rows": 44,
+          "mean_prediction": 0.9101074392282222,
+          "event_rate": 0.9090909090909091
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 0,
+          "rows": 20286,
+          "mean_prediction": 0.010141044838257727,
+          "event_rate": 0.005521048999309869
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 1,
+          "rows": 1283,
+          "mean_prediction": 0.14777569077147518,
+          "event_rate": 0.03351519875292284
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 2,
+          "rows": 1360,
+          "mean_prediction": 0.2519529391750052,
+          "event_rate": 0.07426470588235294
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 3,
+          "rows": 2036,
+          "mean_prediction": 0.35301260234068377,
+          "event_rate": 0.26964636542239684
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 4,
+          "rows": 2403,
+          "mean_prediction": 0.44943008863758344,
+          "event_rate": 0.36371202663337493
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 5,
+          "rows": 2084,
+          "mean_prediction": 0.5467317704023777,
+          "event_rate": 0.4021113243761996
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 6,
+          "rows": 1722,
+          "mean_prediction": 0.6507792311556316,
+          "event_rate": 0.43960511033681765
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 7,
+          "rows": 2250,
+          "mean_prediction": 0.7520352975372573,
+          "event_rate": 0.5933333333333334
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 8,
+          "rows": 2235,
+          "mean_prediction": 0.8481166429828709,
+          "event_rate": 0.8317673378076063
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 9,
+          "rows": 557,
+          "mean_prediction": 0.9189423254962046,
+          "event_rate": 0.992818671454219
+        }
+      ]
+    },
+    "transfer_order": {
+      "paired_nll_gain": {
+        "estimate": 1.1833410964626503,
+        "low": 1.1242832241359497,
+        "high": 1.242647881104213,
+        "n_groups": 503,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "acceptance_probability_mae": {
+        "estimate": 8.100115285995122e-10,
+        "low": 6.626670268901206e-10,
+        "high": 9.909013117029953e-10,
+        "fixed_cells": 16
+      },
+      "verdict": "SUPPORTED",
+      "decoder_supported_rate": 1.0,
+      "operating_groups": 503,
+      "rows": 4024,
+      "delta_nll": 0.04879016416943204,
+      "model_metrics": {
+        "baseline": {
+          "nll": 8.50020850914864,
+          "brier_exact": 2.3426987305473665e-31,
+          "brier_tau": 8.035871272579193e-20,
+          "covered": 0.008697813121272366
+        },
+        "proposed": {
+          "nll": 7.316867412685989,
+          "brier_exact": 1.8180096716369304e-28,
+          "brier_tau": 4.3092819595425584e-17,
+          "covered": 0.1180417495029821
+        }
+      },
+      "fixed_bin_reliability_descriptive": [
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 2.5116330750127373e-16,
+          "event_rate": 0.0
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 1.62855342351916e-10,
+          "event_rate": 0.0
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 2.0762556482366595e-15,
+          "event_rate": 0.0
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 1.620020980943376e-09,
+          "event_rate": 0.0
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        }
+      ]
+    },
+    "transfer_length": {
+      "paired_nll_gain": {
+        "estimate": 1.247658105945125,
+        "low": 1.1704754653694365,
+        "high": 1.3234636275535152,
+        "n_groups": 501,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "acceptance_probability_mae": {
+        "estimate": 8.915967435923036e-12,
+        "low": 6.232121664973463e-12,
+        "high": 1.2761441333716948e-11,
+        "fixed_cells": 16
+      },
+      "verdict": "SUPPORTED",
+      "decoder_supported_rate": 0.9960238568588469,
+      "operating_groups": 503,
+      "rows": 4024,
+      "delta_nll": 0.04879016416943204,
+      "model_metrics": {
+        "baseline": {
+          "nll": 9.283047855481913,
+          "brier_exact": 7.404354469302357e-38,
+          "brier_tau": 7.630469345689516e-24,
+          "covered": 0.007984031936127744
+        },
+        "proposed": {
+          "nll": 8.035389749536787,
+          "brier_exact": 2.99146242476166e-34,
+          "brier_tau": 1.911324545171599e-20,
+          "covered": 0.07984031936127745
+        }
+      },
+      "fixed_bin_reliability_descriptive": [
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 1.1107302251077568e-19,
+          "event_rate": 0.0
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_exact",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 1.1738256317611889e-12,
+          "event_rate": 0.0
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "baseline",
+          "event": "p_tau",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 1.3182535358881762e-18,
+          "event_rate": 0.0
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_exact",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 0,
+          "rows": 4024,
+          "mean_prediction": 1.783193355359253e-11,
+          "event_rate": 0.0
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 1,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 2,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 3,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 4,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        },
+        {
+          "model": "proposed",
+          "event": "p_tau",
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_rate": null
+        }
+      ]
+    }
+  },
+  "hypotheses": {
+    "H_BP": "INCONCLUSIVE",
+    "H_BT": "SUPPORTED"
+  },
+  "family": "two hypotheses each at confidence .975; H_BT intersection-union, exploratory cells unadjusted",
+  "scope": "fresh images in specified source corpora, predeclared watermark-component and channel paths only"
+}

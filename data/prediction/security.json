@@ -1,0 +1,1242 @@
+{
+  "summary": [
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "chroma420",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "jpeg75_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "jpeg75_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "jpeg95_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "jpeg95_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "none",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "blind_one_guess_no_reference",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "chroma420",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "crop08",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "jpeg75_s0",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "jpeg75_s2",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "jpeg95_s0",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "jpeg95_s2",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "none",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "resize09",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_blind_guess",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "chroma420",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.14741035856573706,
+        "low": 0.099601593625498,
+        "high": 0.19726095617529807,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.3705179282868526,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "crop08",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "jpeg75_s0",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.199203187250996,
+        "low": 0.14342629482071714,
+        "high": 0.2549800796812749,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.4940239043824701,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "jpeg75_s2",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "jpeg95_s0",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.549800796812749,
+        "low": 0.47808764940239046,
+        "high": 0.6175298804780877,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.7729083665338645,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "jpeg95_s2",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0398406374501992,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "none",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.5059760956175299,
+        "low": 0.4342629482071713,
+        "high": 0.5737051792828686,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.6772908366533864,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "resize09",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_legitimate",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "chroma420",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.10358565737051793,
+        "low": 0.06374501992031872,
+        "high": 0.15139442231075698,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.2788844621513944,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "crop08",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "jpeg75_s0",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.11553784860557768,
+        "low": 0.07171314741035857,
+        "high": 0.16334661354581673,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.36254980079681276,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "jpeg75_s2",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "jpeg95_s0",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.3426294820717131,
+        "low": 0.2768426294820719,
+        "high": 0.4103585657370518,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.601593625498008,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "jpeg95_s2",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.03187250996015936,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "none",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.32270916334661354,
+        "low": 0.2589641434262948,
+        "high": 0.38645418326693226,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.5378486055776892,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "resize09",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "fixed_secret_one_reference",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 251,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5896414342629482
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "chroma420",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.14342629482071714,
+        "low": 0.09860557768924302,
+        "high": 0.19123505976095617,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.38147410358565736,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "jpeg75_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.19123505976095617,
+        "low": 0.14092380478087654,
+        "high": 0.2450199203187251,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.4750996015936255,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "jpeg75_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "jpeg95_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.547808764940239,
+        "low": 0.4770916334661355,
+        "high": 0.6145418326693227,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.7818725099601593,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "jpeg95_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.00199203187250996,
+        "low": 0.0,
+        "high": 0.00597609561752988,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.045816733067729085,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "none",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.499003984063745,
+        "low": 0.42976842629482076,
+        "high": 0.5652514940239043,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.6952191235059761,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "legitimate_known_secret",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "chroma420",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.09860557768924302,
+        "low": 0.060756972111553786,
+        "high": 0.14043824701195218,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.29880478087649404,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "jpeg75_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.10956175298804781,
+        "low": 0.0697211155378486,
+        "high": 0.15239043824701196,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.34462151394422313,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "jpeg75_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "jpeg95_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.33167330677290835,
+        "low": 0.2704058764940239,
+        "high": 0.3954183266932271,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.6075697211155379,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "jpeg95_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.00099601593625498,
+        "low": 0.0,
+        "high": 0.00398406374501992,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0348605577689243,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "none",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.3107569721115538,
+        "low": 0.250996015936255,
+        "high": 0.37250996015936255,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.5597609561752988,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "one_reference_decode_reinsert",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "chroma420",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.13545816733067728,
+        "low": 0.08764940239043825,
+        "high": 0.18326693227091634,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.4103585657370518,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "jpeg75_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.18725099601593626,
+        "low": 0.1334163346613548,
+        "high": 0.24701195219123506,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.46613545816733065,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "jpeg75_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "jpeg95_resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "jpeg95_resize09_crop08",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "jpeg95_s0",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.5338645418326693,
+        "low": 0.46215139442231074,
+        "high": 0.601593625498008,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.8047808764940239,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "jpeg95_s2",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.00398406374501992,
+        "low": 0.0,
+        "high": 0.01593625498007968,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.06374501992031872,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "none",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.49800796812749004,
+        "low": 0.4262948207171315,
+        "high": 0.5657370517928287,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.7131474103585658,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "resize09",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    },
+    {
+      "scenario": "public_known_fixed_payload",
+      "condition": "resize09_jpeg95",
+      "all_attempts": 1004,
+      "independent_pairs": 251,
+      "exact_pair_cluster_interval": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n_groups": 251,
+        "confidence": 0.975,
+        "reps": 5000
+      },
+      "tau_all_attempt_rate": 0.0,
+      "reference_correct_rate": 0.5747011952191236
+    }
+  ],
+  "threat_contract": "blind sees neither secret nor marked reference; reference scenario gets one marked donor and the public decoder; public payload is known",
+  "limitations": "We use four independent-secret repeats per pair and one fixed secret across the corpus, with one attempt/pair in fixed-secret scenarios. We condition fixed-secret intervals on that secret rather than infer a population-of-secrets effect. We report zero-event counts without inferring zero risk from degenerate bootstrap intervals.",
+  "ideal_independent_secret_chance": {
+    "exact": 3.552713678800501e-15,
+    "tau": 5.043741069243879e-08
+  }
+}
