@@ -120,6 +120,7 @@ final table serialization are excluded.
 | `tools/verify_release.py` | Checksums and independent native rate/contrast recomputation |
 | `tests/` | Numerical, release and interface regression checks |
 | `docs/reproduction.md` | Recorded environments, execution scope and data prerequisites |
+| `docs/native_evidence.md` | Native table-to-record mapping, lock hashes, chronology and prior-exposure limits |
 | `docs/editorial_audit.md` | First-person narrative and claim/evidence review |
 | `docs/citation_audit.md` | Verified page locators and explicit unresolved/nonpaginated cases |
 
