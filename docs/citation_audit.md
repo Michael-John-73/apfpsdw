@@ -36,29 +36,23 @@ into a different proceedings edition.
 | Artificial fingerprinting | pdf p. 3 | Fingerprinted training-data construction |
 | SSIM author-hosted preprint | pdf p. 5-6, 8 | SSIM construction and mean image-quality index |
 
-We corrected the missing SPIE page range for *The watermark copy attack*
-to pp. 371-380. We retained verified full publication ranges for general
-method/dataset citations or when we could not independently verify a narrower
-claim page: Rombach et al., Goldwasser et al., Bellare et al., Petitcolas et al.,
-Kutter et al., Skellam, Barni et al., Wallace, COCO, DiffusionDB, Wilson,
-Efron and Clopper-Pearson. These ranges identify the publication, not a claim
-that we checked every page or isolated the narrowest supporting passage.
+The bibliography gives the SPIE page range pp. 371-380 for *The watermark copy
+attack*. We give full publication ranges for general method/dataset citations
+or when we could not independently verify a narrower claim page: Rombach et
+al., Goldwasser et al., Bellare et al., Petitcolas et al., Kutter et al.,
+Skellam, Barni et al., Wallace, COCO, DiffusionDB, Wilson, Efron and
+Clopper-Pearson. These ranges identify the publication, not a claim that we
+checked every page or isolated the narrowest supporting passage.
 
 ## Nonpaginated primary sources
 
-We removed the optional invisible-watermark issue-thread reference and its
-lossless-roundtrip anecdote. We retained our implementation-based finding
-without claiming first discovery.
+We cite three implementation references: invisible-watermark, original
+CompVis issuance code and the Diffusers SDXL watermarker. Source repositories
+have no PDF pagination, and a scholarly paper does not replace the exact code
+we audited. We cite repository and version locators instead of page numbers.
 
-We retain three essential implementation references: invisible-watermark,
-original CompVis issuance code and the Diffusers SDXL watermarker. Source
-repositories have no genuine PDF pagination, and a scholarly paper does not
-replace the exact code we audited. We retain repository/version locators
-instead of fabricating page numbers.
-
-We retain Article 50(2) and Recital 133 as provision locators for the AI Act.
-The legal text was verified, but our direct official-PDF retrieval returned
-an empty response, so we did not invent physical page numbers.
+We cite Article 50(2) and Recital 133 of the AI Act as provision locators. We
+verified the legal text but did not obtain a paginated official PDF.
 
 ## Primary PDF locations used for additional direct checks
 

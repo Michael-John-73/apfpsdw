@@ -1,6 +1,6 @@
 # Native evidence and chronology
 
-We link the manuscript's native contrast and acceptance tables (Tables 4 and 5)
+We link the manuscript's native contrast and acceptance tables (Tables 5 and 6)
 to the released numerical records. We distinguish archived execution evidence
 from external preregistration and from a complete replay of image generation.
 
@@ -8,8 +8,8 @@ from external preregistration and from a complete replay of image generation.
 
 | Manuscript evidence | Released record | Verification |
 |---|---|---|
-| Table 4: two S-F and four S-T contrasts | [summary contrasts](../data/native/summary.json), [paired measurements](../data/native/measurements.jsonl) | We pair `group` identifiers within payload and contrast, recount positive/negative discordances and recompute the CP bounds |
-| Table 5: exact/tolerant rates in 18 cells | [summary rates](../data/native/summary.json), [measurements](../data/native/measurements.jsonl) | We recount 1,000 observations per payload/role/channel cell from bit-error counts |
+| Table 5: two S-F and four S-T contrasts | [summary contrasts](../data/native/summary.json), [paired measurements](../data/native/measurements.jsonl) | We pair `group` identifiers within payload and contrast, recount positive/negative discordances and recompute the CP bounds |
+| Table 6: exact/tolerant rates in 18 cells | [summary rates](../data/native/summary.json), [measurements](../data/native/measurements.jsonl) | We recount 1,000 observations per payload/role/channel cell from bit-error counts |
 | 44 v1 safety replacements | `safety_replaced` and `group` in the measurements; [post-hoc analysis](../data/native/safety.json) | We check all 132 channel rows have K=68 and reject; we retain all attempts and the original S-T hold |
 
 From the repository root, we run:
